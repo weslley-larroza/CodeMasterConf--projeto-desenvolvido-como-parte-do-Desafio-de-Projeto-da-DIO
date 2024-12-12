@@ -1,0 +1,204 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(135deg, #007BFF, #00d2ff);
+  padding: 20px 0;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+header .menu {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+header .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header .menu a:hover {
+  color: #f4f4f4;
+}
+
+/* Seção de Sobre */
+.sobre {
+  padding: 80px 0;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.sobre p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+/* Seção de Cronograma */
+.cronograma {
+  background-color: #1f1f1f;
+  padding: 80px 0;
+}
+
+.cronograma h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #00d2ff;
+  margin-bottom: 40px;
+}
+
+.cronograma .dia {
+  margin-bottom: 40px;
+}
+
+.cronograma h3 {
+  font-size: 24px;
+  color: #00d2ff;
+  margin-bottom: 10px;
+}
+
+.cronograma ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cronograma li {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* Seção de Ingressos */
+.ingressos {
+  padding: 80px 0;
+  background-color: #121212;
+}
+
+.ingressos h2 {
+  text-align: center;
+  color: #00d2ff;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.ticket {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.ticket h3 {
+  font-size: 24px;
+  color: #00d2ff;
+  margin-bottom: 15px;
+}
+
+.ticket p {
+  font-size: 18px;
+}
+
+.ticket:hover {
+  transform: translateY(-10px);
+  background-color: #007BFF;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1f1f1f;
+  padding: 20px 0;
+  text-align: center;
+  color: #bbb;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+/* Transições suaves para links e botões */
+a, .ticket:hover {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/* Seção de Contato */
+.contato {
+  padding: 80px 0;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.contato h2 {
+  font-size: 30px;
+  color: #00d2ff;
+  margin-bottom: 20px;
+}
+
+.contato-info {
+  font-size: 18px;
+  color: #bbb;
+}
+
+.contato-info a {
+  color: #00d2ff;
+  text-decoration: none;
+}
+
+.contato-info a:hover {
+  text-decoration: underline;
+}
+
+/* Logo do WhatsApp no canto */
+.whatsapp-logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e1f1f;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgb(30, 255, 0);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-logo:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-logo img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+/* Adiciona um efeito de hover suave na logo do WhatsApp */
+.whatsapp-logo a {
+  display: block;
+}
